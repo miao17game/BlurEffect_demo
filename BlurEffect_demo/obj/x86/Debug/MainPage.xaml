@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="BlurEffect_demo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlurEffect_demo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:ConnectionId='1' x:Name="img"/>
+        <Slider x:ConnectionId='2' Minimum="0" Maximum="40" StepFrequency="0.1" VerticalAlignment="Top"                                   />
+
+        <!--<TextBlock Text="节约用电" FontSize="30" Foreground="#8800FF00" VerticalAlignment="Bottom"/>-->
+    </Grid>
+</Page>
+
